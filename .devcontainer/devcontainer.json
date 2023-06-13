@@ -4,7 +4,10 @@
 	"name": "LaTeX devcontainer",
 	// Or use a Dockerfile or Docker Compose file. More info: https://containers.dev/guide/dockerfile
 	"build": {
-		"dockerfile": "Dockerfile"
+		"dockerfile": "Dockerfile",
+        "args": {
+            "SCHEME": "scheme-small"
+        }
 	},
 
 	// Features to add to the dev container. More info: https://containers.dev/features.
